@@ -1,0 +1,16 @@
+[alias]
+  st = status -sb
+  ci = commit
+  co = checkout
+  chpi = cherry-pick
+  logs = log --date=short
+  graph = log --graph --date=short
+  reflogs = reflog --pretty='format:%C(yellow)%h %C(magenta)%gd %C(green)%cd %C(reset)%s %C(red)%d %C(cyan)[%cn]'
+  br = branch
+  pushH = push origin HEAD
+  fe = fetch
+  fea = fetch --all
+  fep = fetch --prune
+  feap = fetch --all --prune
+  pr = !hub pull-request
+  sw = switch
